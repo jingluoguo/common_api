@@ -1,0 +1,13 @@
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1685597160053/work
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1688651106312/work/dist
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1692026125334/work
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1692014902720/work
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+pydantic @ file:///home/conda/feedstock_root/build_artifacts/pydantic_1689770207113/work
+pydantic_core @ file:///Users/runner/miniforge3/conda-bld/pydantic-core_1689286542152/work
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1662051266223/work
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette-recipe_1684245096404/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1688315532570/work
+uvicorn @ file:///Users/runner/miniforge3/conda-bld/uvicorn-split_1690810154145/work
