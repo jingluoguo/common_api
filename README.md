@@ -12,3 +12,7 @@ python main.py
 
 ### 1. 发送邮件
 url: /send_email
+
+### 2. 耗时操作
+url: /time_consuming
+desc: 耗时10s后返回

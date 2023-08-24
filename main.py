@@ -9,6 +9,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
+import time
+
 app = FastAPI()
 
 
@@ -52,6 +54,12 @@ def send_email(email: Email):
     except Exception as e:
         print('邮件发送失败:', str(e))
         return {"code": -1, "msg": "邮件发送失败"}
+
+@app.get("/time_consuming")
+def time_consuming():
+    time.sleep(10)
+    return {"code": 0, "msg": "success"}
+
 
 if __name__ == "__main__":
     # 使用 uvicorn 运行应用程序
